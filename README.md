@@ -53,12 +53,8 @@ If this repository is helpful for your research, please cite our paper:
 
 ## Acknowledgments
 
-https://github.com/FeiLiu36/MTNCO
-
-https://github.com/RoyalSkye/Routing-MVMoE
-
-https://github.com/ai4co/routefinder
-
-https://github.com/CIAM-Group/CaDA
-
+* https://github.com/FeiLiu36/MTNCO
+* https://github.com/RoyalSkye/Routing-MVMoE
+* https://github.com/ai4co/routefinder
+* https://github.com/CIAM-Group/CaDA
 
