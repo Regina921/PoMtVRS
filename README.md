@@ -12,11 +12,53 @@ Specifically, we introduce the preference optimization objective to learn relati
 
 ## Dependencies
 
+```bash
+Python >= 3.8
+Pytorch >= 2.0.1
+numpy==1.24.4
+tqdm==4.67.1
 
+```
 
 ## Download datasets and models
 
+Download `datasets` and `models` from [Hugging Face](https://huggingface.co/datasets/Regina921/PoMtVRS/tree/main). 
+
+Unzip `results.zip`, and organize the files in the project directory as follows:
+
+```bash
+
+PoMtVRS
+├── data
+│   ├── lib_data
+│   └── synthetic_data
+├─ VRP50
+│  └─ save_models_n50
+└─ VRP100
+   └─ save_models_n100
+```
+Note: The dataset is sourced from [CaDA-main](https://github.com/CIAM-Group/CaDA).
 
 ## Citation
+If this repository is helpful for your research, please cite our paper:
+ 
+```bash
+@inproceedings{icml2026PoMtVRS,
+  title={PoMtVRS: Preference-Optimized Multi-Task Vehicle Routing Solver with Preference Gating},
+  author={Meng, Dian and Wu, Yaoxin and Hou, Yaqing, and Cao, Zhiguang},
+  booktitle={Forty-third International Conference on Machine Learning, {ICML26}},
+  year={2026},
+}
+```
 
 ## Acknowledgments
+
+https://github.com/FeiLiu36/MTNCO
+
+https://github.com/RoyalSkye/Routing-MVMoE
+
+https://github.com/ai4co/routefinder
+
+https://github.com/CIAM-Group/CaDA
+
+
